@@ -15,7 +15,7 @@ end)
 spawn(function ()
     while wait(.5) do
         pcall(function()
-            if SendWH and (getgenv().Settings['Webhook'] ~= nil or getgenv().Settings['Webhook'] ~= '') then
+            if SendWH then
                 webhook(SoBounty, TenPlayer)
             end
             SendWH = false
