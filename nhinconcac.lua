@@ -10,3 +10,13 @@ wehookbounty = hookfunction(require(game:GetService("ReplicatedStorage").Notific
     end
     return wehookbounty(...)
 end)
+spawn(function ()
+    while wait(.5) do
+        pcall(function()
+            if SendWH then
+                webhook(SoBounty, TenPlayer)
+            end
+            SendWH = false
+        end)
+    end
+end)
