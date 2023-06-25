@@ -1,13 +1,15 @@
 [Main]
 Main Feature:
 + Auto Rejoin When Get Kick
-+ Bring DF
 + Redeem all Codes!
 + Hop Server
 + Hop Low Server
 Devil Fruit Sniper:
 + Select Devil Fruit
 + Auto DF Sniper
++ Bring DF
++ Hop Fruit
++ Auto Collect Fruit
 Visual:
 + Devil Fruit Esp
 + Players Esp
@@ -23,17 +25,27 @@ Farm Section:
 + Auto Farm
 + Auto New World
 + Auto Sea King + Chest Sea King + Hop
++ Auto Hydra Sea King + Hop
 + Auto Ghost Ship + Hop
 Item Section:
 + Select Item
 + Auto Sword ( Saber,Mom Blade,Authentic Mace,Hell Sword,Phoenix Blade )
 + Auto Start Sword At Level (Text Box)
+Farm Mob:
++ Select Mob
++ Auto Farm Mob Select
 [Dungoen]
 Dungoen:
 + Teleport To Dungoen!
 + Choose Mode
 + Auto Dungoen
 + Save Health
+[Combat]
+Player:
++ Select Player
++  Teleport Player
++ Spec Players
+Auto Bounty + Hop
 [Local Player]
 Player's Stats:
 + Select Stats To Add ( 'Devil Fruit','Defense','Sword','Melee')
@@ -53,4 +65,4 @@ Skill Section:
 Settings Game:
 + Auto Save Settings
 + Method Farm
-+ Distance Farm
++ Distance Farm 
