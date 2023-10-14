@@ -31,3 +31,4 @@ old = hookfunction(ParticleTools.Make,function(...)
     end
     return old(...)
 end)
+return ListCross
