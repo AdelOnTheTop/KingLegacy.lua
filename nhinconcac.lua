@@ -554,7 +554,7 @@ end)
 
 if getgenv().Remembered and getgenv().Key then
     rememberedCheck(getgenv().Remembered)
-    focuesedFunc()
+    --focuesedFunc()
     keyBox.Text = getgenv().Key
     checkKey(getgenv().Key)
 end
