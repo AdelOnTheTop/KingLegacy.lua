@@ -559,8 +559,8 @@ if getgenv().Remembered and getgenv().Key then
     checkKey(getgenv().Key)
 end
 
-keyBox.Focused:Connect(focuesedFunc)
-keyBox.FocusLost:Connect(focueoutFunc)
+-- keyBox.Focused:Connect(focuesedFunc)
+-- keyBox.FocusLost:Connect(focueoutFunc)
 
 rememberBtn.MouseButton1Click:Connect(function()
     getgenv().Remembered = not getgenv().Remembered
